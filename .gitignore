@@ -1,0 +1,6 @@
+# .gitignore
+.env
+cases.json
+__pycache__/
+*.pyc
+cogs (Testing)
