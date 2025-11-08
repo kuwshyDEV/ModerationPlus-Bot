@@ -150,19 +150,13 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory:
 ```env
 DISCORD_TOKEN=your_bot_token_here
-MOD_LOG_CHANNEL_ID=your_channel_id_here
-MUTED_ROLE_ID=your_muted_role_id_here
 ```
 
 **How to find these IDs:**
 - **Bot Token**: [Discord Developer Portal](https://discord.com/developers/applications)
-- **Channel ID**: Right-click channel → Copy Channel ID (enable Developer Mode)
-- **Role ID**: Right-click role → Copy Role ID (enable Developer Mode)
 
 #### 5️⃣ Server Setup
-1. Create a **"Muted"** role in your server
-2. Remove "Send Messages" and "Speak" permissions from the role
-3. Add the bot to your server with these permissions:
+1. Add the bot to your server with these permissions:
    - Send Messages
    - Read Message History
    - Manage Messages
@@ -226,11 +220,6 @@ Each case displays interactive buttons:
 ```env
 # Required
 DISCORD_TOKEN=your_token                 # Bot token from Developer Portal
-
-# Optional but Recommended
-MOD_LOG_CHANNEL_ID=channel_id            # Where mod actions are logged
-MUTED_ROLE_ID=role_id                    # Role used for muting
-PREFIX=!                                  # Command prefix (slash commands primary)
 ```
 
 ### Customizing Mod Log Channel
