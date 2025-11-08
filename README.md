@@ -55,6 +55,7 @@ Run Bot: `python index.py`
 - Commands: Use /timeout @user 5, /mute @user 10, /kick @user, /ban @user, /warn @user, /report @user, /unban 123456789012345678, /unmute @user, /case 1 with optional reasons/images.
 - UI: Commands display a CaseContainer with case ID, target, moderator, reason, proof (images), timestamp, and action buttons (Update, Revoke, History, Export, Share, Appeal).
 - Database: Cases stored in cases.json for retrieval via /case.
+- Create a `.env` file & set the `DISCORD_TOKEN=` value inside of it.
 
 **Learning Objectives**
 - ComponentsV2: Understand ui.Container, ui.MediaGallery, ui.TextDisplay, ui.ActionRow, and ui.LayoutView.
